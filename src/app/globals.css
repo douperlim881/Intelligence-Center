@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* 针对所有溢出容器隐藏滚动条，但保留滚动功能 */
+@layer base {
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;    /* Firefox */
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;            /* Chrome, Safari and Opera */
+  }
+}
