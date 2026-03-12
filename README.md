@@ -60,10 +60,8 @@ build-exe.bat
 The standalone binary will be located in `src-tauri/target/release/bundle/`.
 
 🗺️ Roadmap
-Native Rust Migration: Move all SSE stream parsing from frontend JS to Rust Tauri commands for native-level throughput.
-
-Local RAG Integration: Embed a local vector DB for offline PDF/codebase Q&A without data exfiltration.
-
-SQLite Persistence: Transition from localStorage to tauri-plugin-sql for robust, unlimited local session storage.
+- Native Rust Migration: Move all SSE stream parsing from frontend JS to Rust Tauri commands for native-level throughput.
+- Local RAG Integration: Embed a local vector DB for offline PDF/codebase Q&A without data exfiltration.
+- SQLite Persistence: Transition from localStorage to tauri-plugin-sql for robust, unlimited local session storage.
 
 
