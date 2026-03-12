@@ -1,4 +1,4 @@
-🌌 Intelligence Center (IC)
+🌌 Intelligence Center™ (IC)
 The Next-Generation Localized AI Orchestration Engine.
 
 📖 Background & Vision
